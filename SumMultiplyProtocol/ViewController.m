@@ -30,14 +30,14 @@ alloc] initWithRootViewController:secondvw];
 {
     int a;
     a=val1+val2;
-    result.text=[NSString stringWithFormat:@"Sum is %d",a];
+    result.text=[NSString stringWithFormat:@"The result of the Sum is %d",a];
 }
 
 -(void) multiply: (int) x secondvalue: (int) y
 {
     int a;
     a=x*y;
-    result.text=[NSString stringWithFormat:@"Multiplication is %d",a];
+    result.text=[NSString stringWithFormat:@"The result of the mult is %d",a];
 }
 
 - (void)viewDidLoad
