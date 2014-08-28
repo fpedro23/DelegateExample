@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB24B12819AFD950005FD04C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB24B12719AFD950005FD04C /* Foundation.framework */; };
+		EB24B12A19AFD950005FD04C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB24B12919AFD950005FD04C /* CoreGraphics.framework */; };
+		EB24B12C19AFD950005FD04C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB24B12B19AFD950005FD04C /* UIKit.framework */; };
+		EB24B13219AFD950005FD04C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB24B13019AFD950005FD04C /* InfoPlist.strings */; };
+		EB24B13419AFD950005FD04C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB24B13319AFD950005FD04C /* main.m */; };
+		EB24B13819AFD950005FD04C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB24B13719AFD950005FD04C /* AppDelegate.m */; };
+		EB24B13B19AFD950005FD04C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB24B13919AFD950005FD04C /* Main.storyboard */; };
+		EB24B13E19AFD950005FD04C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB24B13D19AFD950005FD04C /* ViewController.m */; };
+		EB24B14019AFD950005FD04C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB24B13F19AFD950005FD04C /* Images.xcassets */; };
+		EB24B14719AFD950005FD04C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB24B14619AFD950005FD04C /* XCTest.framework */; };
+		EB24B14819AFD950005FD04C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB24B12719AFD950005FD04C /* Foundation.framework */; };
+		EB24B14919AFD950005FD04C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB24B12B19AFD950005FD04C /* UIKit.framework */; };
+		EB24B15119AFD950005FD04C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB24B14F19AFD950005FD04C /* InfoPlist.strings */; };
+		EB24B15319AFD950005FD04C /* SumMultiplyProtocolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB24B15219AFD950005FD04C /* SumMultiplyProtocolTests.m */; };
+		EB24B15F19AFDA6F005FD04C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB24B15D19AFDA6F005FD04C /* SecondViewController.m */; };
+		EB24B16019AFDA6F005FD04C /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB24B15E19AFDA6F005FD04C /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB24B14A19AFD950005FD04C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB24B11C19AFD950005FD04C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB24B12319AFD950005FD04C;
+			remoteInfo = SumMultiplyProtocol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB24B12419AFD950005FD04C /* SumMultiplyProtocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SumMultiplyProtocol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB24B12719AFD950005FD04C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB24B12919AFD950005FD04C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB24B12B19AFD950005FD04C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB24B12F19AFD950005FD04C /* SumMultiplyProtocol-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SumMultiplyProtocol-Info.plist"; sourceTree = "<group>"; };
+		EB24B13119AFD950005FD04C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB24B13319AFD950005FD04C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB24B13519AFD950005FD04C /* SumMultiplyProtocol-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SumMultiplyProtocol-Prefix.pch"; sourceTree = "<group>"; };
+		EB24B13619AFD950005FD04C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB24B13719AFD950005FD04C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB24B13A19AFD950005FD04C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB24B13C19AFD950005FD04C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB24B13D19AFD950005FD04C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB24B13F19AFD950005FD04C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB24B14519AFD950005FD04C /* SumMultiplyProtocolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumMultiplyProtocolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB24B14619AFD950005FD04C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EB24B14E19AFD950005FD04C /* SumMultiplyProtocolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SumMultiplyProtocolTests-Info.plist"; sourceTree = "<group>"; };
+		EB24B15019AFD950005FD04C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB24B15219AFD950005FD04C /* SumMultiplyProtocolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumMultiplyProtocolTests.m; sourceTree = "<group>"; };
+		EB24B15C19AFDA6F005FD04C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EB24B15D19AFDA6F005FD04C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EB24B15E19AFDA6F005FD04C /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB24B12119AFD950005FD04C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB24B12A19AFD950005FD04C /* CoreGraphics.framework in Frameworks */,
+				EB24B12C19AFD950005FD04C /* UIKit.framework in Frameworks */,
+				EB24B12819AFD950005FD04C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB24B14219AFD950005FD04C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB24B14719AFD950005FD04C /* XCTest.framework in Frameworks */,
+				EB24B14919AFD950005FD04C /* UIKit.framework in Frameworks */,
+				EB24B14819AFD950005FD04C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB24B11B19AFD950005FD04C = {
+			isa = PBXGroup;
+			children = (
+				EB24B12D19AFD950005FD04C /* SumMultiplyProtocol */,
+				EB24B14C19AFD950005FD04C /* SumMultiplyProtocolTests */,
+				EB24B12619AFD950005FD04C /* Frameworks */,
+				EB24B12519AFD950005FD04C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB24B12519AFD950005FD04C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB24B12419AFD950005FD04C /* SumMultiplyProtocol.app */,
+				EB24B14519AFD950005FD04C /* SumMultiplyProtocolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB24B12619AFD950005FD04C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB24B12719AFD950005FD04C /* Foundation.framework */,
+				EB24B12919AFD950005FD04C /* CoreGraphics.framework */,
+				EB24B12B19AFD950005FD04C /* UIKit.framework */,
+				EB24B14619AFD950005FD04C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB24B12D19AFD950005FD04C /* SumMultiplyProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				EB24B13619AFD950005FD04C /* AppDelegate.h */,
+				EB24B13719AFD950005FD04C /* AppDelegate.m */,
+				EB24B13919AFD950005FD04C /* Main.storyboard */,
+				EB24B13C19AFD950005FD04C /* ViewController.h */,
+				EB24B13D19AFD950005FD04C /* ViewController.m */,
+				EB24B15C19AFDA6F005FD04C /* SecondViewController.h */,
+				EB24B15D19AFDA6F005FD04C /* SecondViewController.m */,
+				EB24B15E19AFDA6F005FD04C /* SecondViewController.xib */,
+				EB24B13F19AFD950005FD04C /* Images.xcassets */,
+				EB24B12E19AFD950005FD04C /* Supporting Files */,
+			);
+			path = SumMultiplyProtocol;
+			sourceTree = "<group>";
+		};
+		EB24B12E19AFD950005FD04C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB24B12F19AFD950005FD04C /* SumMultiplyProtocol-Info.plist */,
+				EB24B13019AFD950005FD04C /* InfoPlist.strings */,
+				EB24B13319AFD950005FD04C /* main.m */,
+				EB24B13519AFD950005FD04C /* SumMultiplyProtocol-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB24B14C19AFD950005FD04C /* SumMultiplyProtocolTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB24B15219AFD950005FD04C /* SumMultiplyProtocolTests.m */,
+				EB24B14D19AFD950005FD04C /* Supporting Files */,
+			);
+			path = SumMultiplyProtocolTests;
+			sourceTree = "<group>";
+		};
+		EB24B14D19AFD950005FD04C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB24B14E19AFD950005FD04C /* SumMultiplyProtocolTests-Info.plist */,
+				EB24B14F19AFD950005FD04C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB24B12319AFD950005FD04C /* SumMultiplyProtocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB24B15619AFD950005FD04C /* Build configuration list for PBXNativeTarget "SumMultiplyProtocol" */;
+			buildPhases = (
+				EB24B12019AFD950005FD04C /* Sources */,
+				EB24B12119AFD950005FD04C /* Frameworks */,
+				EB24B12219AFD950005FD04C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SumMultiplyProtocol;
+			productName = SumMultiplyProtocol;
+			productReference = EB24B12419AFD950005FD04C /* SumMultiplyProtocol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB24B14419AFD950005FD04C /* SumMultiplyProtocolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB24B15919AFD950005FD04C /* Build configuration list for PBXNativeTarget "SumMultiplyProtocolTests" */;
+			buildPhases = (
+				EB24B14119AFD950005FD04C /* Sources */,
+				EB24B14219AFD950005FD04C /* Frameworks */,
+				EB24B14319AFD950005FD04C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB24B14B19AFD950005FD04C /* PBXTargetDependency */,
+			);
+			name = SumMultiplyProtocolTests;
+			productName = SumMultiplyProtocolTests;
+			productReference = EB24B14519AFD950005FD04C /* SumMultiplyProtocolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB24B11C19AFD950005FD04C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Pedro Contreras Nava";
+				TargetAttributes = {
+					EB24B14419AFD950005FD04C = {
+						TestTargetID = EB24B12319AFD950005FD04C;
+					};
+				};
+			};
+			buildConfigurationList = EB24B11F19AFD950005FD04C /* Build configuration list for PBXProject "SumMultiplyProtocol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB24B11B19AFD950005FD04C;
+			productRefGroup = EB24B12519AFD950005FD04C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB24B12319AFD950005FD04C /* SumMultiplyProtocol */,
+				EB24B14419AFD950005FD04C /* SumMultiplyProtocolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB24B12219AFD950005FD04C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB24B16019AFDA6F005FD04C /* SecondViewController.xib in Resources */,
+				EB24B14019AFD950005FD04C /* Images.xcassets in Resources */,
+				EB24B13219AFD950005FD04C /* InfoPlist.strings in Resources */,
+				EB24B13B19AFD950005FD04C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB24B14319AFD950005FD04C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB24B15119AFD950005FD04C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB24B12019AFD950005FD04C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB24B15F19AFDA6F005FD04C /* SecondViewController.m in Sources */,
+				EB24B13E19AFD950005FD04C /* ViewController.m in Sources */,
+				EB24B13819AFD950005FD04C /* AppDelegate.m in Sources */,
+				EB24B13419AFD950005FD04C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB24B14119AFD950005FD04C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB24B15319AFD950005FD04C /* SumMultiplyProtocolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB24B14B19AFD950005FD04C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB24B12319AFD950005FD04C /* SumMultiplyProtocol */;
+			targetProxy = EB24B14A19AFD950005FD04C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB24B13019AFD950005FD04C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB24B13119AFD950005FD04C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB24B13919AFD950005FD04C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB24B13A19AFD950005FD04C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB24B14F19AFD950005FD04C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB24B15019AFD950005FD04C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB24B15419AFD950005FD04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB24B15519AFD950005FD04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB24B15719AFD950005FD04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SumMultiplyProtocol/SumMultiplyProtocol-Prefix.pch";
+				INFOPLIST_FILE = "SumMultiplyProtocol/SumMultiplyProtocol-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB24B15819AFD950005FD04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SumMultiplyProtocol/SumMultiplyProtocol-Prefix.pch";
+				INFOPLIST_FILE = "SumMultiplyProtocol/SumMultiplyProtocol-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EB24B15A19AFD950005FD04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SumMultiplyProtocol.app/SumMultiplyProtocol";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SumMultiplyProtocol/SumMultiplyProtocol-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SumMultiplyProtocolTests/SumMultiplyProtocolTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EB24B15B19AFD950005FD04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SumMultiplyProtocol.app/SumMultiplyProtocol";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SumMultiplyProtocol/SumMultiplyProtocol-Prefix.pch";
+				INFOPLIST_FILE = "SumMultiplyProtocolTests/SumMultiplyProtocolTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB24B11F19AFD950005FD04C /* Build configuration list for PBXProject "SumMultiplyProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB24B15419AFD950005FD04C /* Debug */,
+				EB24B15519AFD950005FD04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB24B15619AFD950005FD04C /* Build configuration list for PBXNativeTarget "SumMultiplyProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB24B15719AFD950005FD04C /* Debug */,
+				EB24B15819AFD950005FD04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB24B15919AFD950005FD04C /* Build configuration list for PBXNativeTarget "SumMultiplyProtocolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB24B15A19AFD950005FD04C /* Debug */,
+				EB24B15B19AFD950005FD04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB24B11C19AFD950005FD04C /* Project object */;
+}
