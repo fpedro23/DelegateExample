@@ -23,6 +23,7 @@
 
 @property (nonatomic, retain) UITextField *value1;
 @property (nonatomic, retain) UITextField *value2;
+@property (nonatomic,retain) NSString *nombre;
 @property (nonatomic, retain) id <SecondViewControllerDelegate> delegate;
 
 -(IBAction) add:(id)sender;
