@@ -13,6 +13,8 @@
 
 @property(weak, nonatomic) IBOutlet UILabel *result;
 - (IBAction)goToSecondView:(id)sender;
+- (IBAction)goToFourthView:(id)sender;
+
 
 
 @end
